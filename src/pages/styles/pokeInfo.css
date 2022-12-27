@@ -1,0 +1,324 @@
+.poke-info {
+    width: 75%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.poke-info__header {
+    margin-top: 100px;
+    background-color: #aaa;
+    height: 120px;
+    position: relative;
+}
+
+.poke-info__sprite {
+    width: 200px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.poke-info__squareId {
+    margin-left: 47.5%;
+}
+
+.poke-info__id {
+    margin-top: 30px;
+    text-align: center;
+    width: 35px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.poke-info__name {
+    text-align: center;
+    /* margin-top: 15px; */
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 500;
+    position: static;
+}
+
+.poke-info__one-line, .poke-info__second-line {
+    border: 0.05em solid #aaa;
+    position: relative;
+    background-color: #aaa;
+}
+
+.poke-info__one-line {
+    top: 20px;
+    margin-right: 35rem; 
+    /* margin-left: 80px; */
+}
+
+.poke-info__second-line {
+    bottom: 15px;
+    margin-left: 35rem; 
+    /* margin-right: 80px; */
+}
+
+.poke-info__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px; 
+}
+
+.poke-info__wh-container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    font-size: 0.7rem;
+}
+
+.poke-info__wh-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+    padding-left: 75%;
+}
+
+.poke-info__wh-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+    padding-right: 75%;
+}
+
+.poke-info__wh-number {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.poke-info__abilitiesTypes-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.poke-info__types-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.poke-info__type-title, .poke-info__abilities-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.poke-info__type-letter {
+    color: #F7F7F7;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+
+.poke-info__ability {
+    font-weight: 500;
+}
+
+.poke-info__abilities-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 10px;
+}
+
+.poke-info__type-title {
+    grid-column: span 2;
+    text-align: center;
+    justify-content: center;
+}
+
+.poke-info__type, .poke-info__ability {
+    text-align: center;
+    margin: 0px 10px;
+    border: 0.05em solid #aaa5;
+    padding: 5px 15px;
+}
+
+.poke-info__abilities-title{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.progress {
+    height: 20px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #F7F7F7;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 4px;
+}
+
+.poke-info__stats-title {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.poke-info__stats-container{
+    margin: 0px 20px;
+}
+
+.poke-info__stat {
+    margin: 35px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+
+.poke-info__div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.poke-info__stat-name {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.poke-info__stat-stat {
+    text-align: end;
+    font-weight: 500;
+    font-size: 0.5rem;
+}
+
+.poke-info__footer {
+    margin-top: 100px;
+    margin: 0px 20px;
+}
+
+.poke-info__movements-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.poke-info__movements-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.poke-info__movements {
+    border: 1px solid #E5E5E5;
+    background-color: #E5E5E5;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+.poke-info__footer {
+    /* padding-bottom: 30px; */
+    background-color: white;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px #0008;
+}
+
+.poke-info__body {
+    background-color: white;
+    max-width: 100%;
+    padding: 0px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px #0008;
+    margin-bottom: 50px;
+    margin: 0 20px;
+}
+
+.poke__ball-big {
+    border: 1px solid #aaa;
+    width: 60px;
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    /* left: 80%; */
+    /* transform: translateY(-25%); */
+    padding: 0px 20px;
+}
+
+.poke__ball-mini {
+    border: 1px solid #aaa;
+    width: 17px;
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    transform: translateY(125%); 
+    padding: 0px 2.5px;
+    padding-top: 0.5px;
+}
+
+.poke__ball-mini-mini {
+    border: 1px solid #aaa;
+    width: 10px;
+    background-color: white;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    transform: translateY(20%);
+}
+
+.poke__ball-line {
+    border: 0.5px solid #aaa;
+    width: 22px;
+    background-color: white;
+    transform: translateY(-4300%) translateX(150%) rotate(-45deg); 
+
+}
+
+.poke__ball-line2 {
+    
+    border: 0.5px solid #aaa;
+    width: 21px;
+    background-color: white;
+    transform: translateY(-1700%) translateX(30%) rotate(-45deg);
+}
+
+.pokeball {
+    height: 10px;  
+    grid-column-start: 20;
+    grid-column-end: 21;
+}
+
+.poke-info__movements-line-container {
+    width: 100%;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    margin-top: 34px;
+}
+
+.poke-info__movements-line {
+    border: 0.05em solid #aaa;
+    background-color: #aaa;
+}
+
+.poke-info__movements-header {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+}

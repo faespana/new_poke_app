@@ -1,0 +1,73 @@
+.poke__welcome {
+    margin-top: 30px;
+    /* margin-left: 11%; */
+    text-align: center;
+    font-weight: 300;
+}
+
+.poke__welcome-span {
+    color: #fe1936;
+    font-weight: 600;
+}
+
+.poke__searcher {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+
+.poke-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.poke__form-input {
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 0.2em;
+    border: 1px solid #aaaa;
+    background-color: rgb(250, 255, 255);
+    padding: 0.8em;
+    width: 300px;
+}
+
+.poke__form-btn{
+    font-size: 1rem;
+    padding: 0.8em;
+    background-color: #fe1936;
+    color: #ffffff;
+    transition: filter 100ms ease;
+    border-radius: 0.2em;
+    border: 1px solid #aaaa;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.poke__select {
+    font-size: 1rem;
+    font-weight: 100;
+    border-radius: 0.2em;
+    border: 1px solid #aaaa;
+    background-color: rgb(250, 255, 255);
+    padding: 0.8em;
+    width: 425px;
+}
+
+.pagination{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
